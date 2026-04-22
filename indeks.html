@@ -1,13 +1,150 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>my site</title>
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio | Spotify Style</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
+  <div class="app-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon">S</div>
+        <div>
+          <p class="small-label">Creative Portfolio</p>
+          <h2>Faiz Alias</h2>
+        </div>
+      </div>
 
-<h1>Welcome</h1>
-<p>Edit this project into your own website.</p>
+      <nav class="menu">
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
 
+      <div class="playlist-card">
+        <p class="small-label">Now Designing</p>
+        <h3>Visual Storytelling</h3>
+        <p>Branding, animation, interface design, and creative direction.</p>
+      </div>
+    </aside>
+
+    <main class="main-content" id="home">
+      <header class="topbar">
+        <div class="search-box">Search portfolio</div>
+        <button class="cta-button">Hire Me</button>
+      </header>
+
+      <section class="hero">
+        <div class="hero-text">
+          <p class="section-tag">Featured Designer</p>
+          <h1>Designing bold digital experiences with a music platform vibe.</h1>
+          <p class="hero-description">
+            I create visual systems, motion pieces, and creative campaigns that blend design,
+            storytelling, and technology.
+          </p>
+          <div class="hero-actions">
+            <a href="#projects" class="primary-btn">View Projects</a>
+            <a href="#contact" class="secondary-btn">Contact</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <div class="vinyl-ring"></div>
+          <div class="profile-card">
+            <span>Creative Director</span>
+            <strong>Available for collaboration</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section" id="about">
+        <div class="section-header">
+          <h2>About</h2>
+          <span>01</span>
+        </div>
+        <div class="about-grid">
+          <article class="card large-card">
+            <h3>My Design Identity</h3>
+            <p>
+              I focus on modern visual communication, immersive storytelling, and creative media.
+              My work combines strong layout, emotional visuals, and clear audience engagement.
+            </p>
+          </article>
+          <article class="card stat-card">
+            <h3>8+</h3>
+            <p>Years in creative projects</p>
+          </article>
+          <article class="card stat-card">
+            <h3>20+</h3>
+            <p>Branding and media outputs</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="projects">
+        <div class="section-header">
+          <h2>Top Projects</h2>
+          <span>02</span>
+        </div>
+
+        <div class="project-grid">
+          <article class="card project-card">
+            <div class="project-cover cover-one"></div>
+            <div class="project-info">
+              <h3>Motion Campaign</h3>
+              <p>Animated campaign visuals with bold typography and rhythm-based editing.</p>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-cover cover-two"></div>
+            <div class="project-info">
+              <h3>Brand Identity System</h3>
+              <p>Clean logo, digital assets, and visual language for a modern creative brand.</p>
+            </div>
+          </article>
+
+          <article class="card project-card">
+            <div class="project-cover cover-three"></div>
+            <div class="project-info">
+              <h3>UI Experience Design</h3>
+              <p>Interface mockups inspired by streaming dashboards and personalized discovery.</p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="content-section" id="skills">
+        <div class="section-header">
+          <h2>Skills</h2>
+          <span>03</span>
+        </div>
+
+        <div class="skills-row">
+          <div class="chip">Branding</div>
+          <div class="chip">Motion Graphics</div>
+          <div class="chip">UI Design</div>
+          <div class="chip">Creative Direction</div>
+          <div class="chip">3D Visuals</div>
+          <div class="chip">Storytelling</div>
+        </div>
+      </section>
+
+      <section class="content-section contact-section" id="contact">
+        <div class="section-header">
+          <h2>Contact</h2>
+          <span>04</span>
+        </div>
+        <div class="card contact-card">
+          <h3>Let’s build something memorable.</h3>
+          <p>Email: faizcreative@example.com</p>
+          <p>Instagram: @faizcreates</p>
+        </div>
+      </section>
+    </main>
+  </div>
 </body>
 </html>
